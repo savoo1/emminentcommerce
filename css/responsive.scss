@@ -1,0 +1,160 @@
+
+
+@media(max-height: 900px){
+	.aarrow{
+		position: absolute !important;
+		bottom: 0 !important;
+		width: 100% !important;
+		    left: 15px;
+	}
+	.hero{
+		height: 100vh;
+		max-height: 100vh;
+		min-height: 100vh;
+		position: relative;
+		@keyframes sliddownup {
+		  from{
+		    margin-top: 0px;
+		    margin-bottom: 5px;
+		  }
+
+		  to{
+		    margin-top: 0px;
+		    margin-bottom: 20px;
+		  }
+		}
+		padding-top: calc(50vh - 100px);
+	}
+}
+
+@media(max-height: 700px){
+	.hero{
+		height: 700px;
+		max-height: 700px;
+		min-height: 700px;
+		position: relative;
+		padding-top: 250px;
+	}
+	
+}
+
+@media(max-width:1500px){
+	.selectedwork .leftarrow{
+		top: -50px;
+		left: calc(50% - 100px);
+	}
+	.selectedwork .rightarrow{
+		top: -50px;
+		right: calc(50% - 100px);
+	}
+}
+
+@media(max-width:1200px){
+	.hero{
+		h1,h2{
+			font-size: 25px;
+		}
+	}
+	label ul{
+		text-align: center;
+		margin: 0;
+		left: 50%;
+		padding: 0;
+	}
+	label input:checked + .menu + ul{
+		margin: 0;
+	}
+	label ul .crtica{
+		width: 100%;
+	}
+}
+@media(max-width:991px){
+	.latestnews .blogs img{
+		margin: auto;
+	}
+	.latestnews .blogs p{
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.footer h2{
+		margin-top: 70px;
+		margin-bottom: 30px;
+	}
+	.footer .logo2{
+		margin-bottom: 0;
+	}
+	.latestnews .blogs h1{
+		border: 0;
+		margin-bottom: 70px;
+		text-align: center;
+	}
+	.cta h1{
+		text-align: center;
+	}
+	.cta .mainbtn{
+		text-align: center;
+		margin-top: 15px;
+	}
+	.testomonial .imgman{
+		max-width: 300px;
+		margin: auto;
+	}
+	.testomonial .testomonials .rightarrow{
+		float: right;
+	}
+	.testomonial .testomonials h2, .testomonial .testomonials p{
+		text-align: center;
+	}
+	.selectedwork .mainbtn{
+		margin-bottom: 50px;
+	}
+	.selectedwork h1,.testomonial h1{
+		text-align: center;
+	}
+	.selectedwork .line,.testomonial .line{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.selectedwork h2{
+		margin-top: 25px;
+		text-align: center;
+	}
+	.selectedwork p{
+		height: auto;
+		margin: auto;
+		text-align: center;
+	}
+	.hero{
+		// h1{
+	 //    margin-bottom: 20px;
+	 //   	}
+	}
+	.sec .dots{
+		display: none;
+	}
+	.sec h2{
+		text-align: center;
+		right: calc(50% - 65px);
+	}
+}
+@media(max-width:768px){
+	.logo{
+		img{
+			max-width: 150px;
+		}
+	}
+	.hero{
+		padding-top: 220px;
+	}
+	.sec .icon{
+		    left: calc(50% - 25px);
+	}
+	.sec h2{
+		text-align: center;
+		right: calc(50% - 65px);
+	}
+}
+@media(max-width:767px){}
+
+
